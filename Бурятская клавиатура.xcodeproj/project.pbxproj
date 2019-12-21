@@ -1,0 +1,1071 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B30C96FF220CB853006668C2 /* default-keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C96FE220CB853006668C2 /* default-keys.plist */; };
+		B30C9707220CB860006668C2 /* standard-phone-portrait-secondary-symbols.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C9700220CB860006668C2 /* standard-phone-portrait-secondary-symbols.plist */; };
+		B30C9708220CB860006668C2 /* standard-phone-portrait-meta.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C9701220CB860006668C2 /* standard-phone-portrait-meta.plist */; };
+		B30C9709220CB860006668C2 /* standard-phone-portrait-primary-lowercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C9702220CB860006668C2 /* standard-phone-portrait-primary-lowercase.plist */; };
+		B30C970B220CB860006668C2 /* standard-phone-portrait-secondary-numbers.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C9704220CB860006668C2 /* standard-phone-portrait-secondary-numbers.plist */; };
+		B30C970D220CB860006668C2 /* standard-phone-portrait-primary-uppercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C9706220CB860006668C2 /* standard-phone-portrait-primary-uppercase.plist */; };
+		B30C970F220CB8F8006668C2 /* standard-phone-landscape-primary-lowercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C970E220CB8F8006668C2 /* standard-phone-landscape-primary-lowercase.plist */; };
+		B30C9711220CBA33006668C2 /* standard-phone-landscape-meta.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C9710220CBA33006668C2 /* standard-phone-landscape-meta.plist */; };
+		B30C9715220CE116006668C2 /* standard-phone-landscape-secondary-numbers.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C9714220CE116006668C2 /* standard-phone-landscape-secondary-numbers.plist */; };
+		B30C9717220CEFC8006668C2 /* standard-phone-landscape-primary-uppercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C9716220CEFC8006668C2 /* standard-phone-landscape-primary-uppercase.plist */; };
+		B30C9719220CF89E006668C2 /* standard-phone-landscape-secondary-symbols.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C9718220CF89D006668C2 /* standard-phone-landscape-secondary-symbols.plist */; };
+		B30C971B220DCC5C006668C2 /* small-phone-portrait-meta.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C971A220DCC5C006668C2 /* small-phone-portrait-meta.plist */; };
+		B30C971D220DCC8D006668C2 /* small-phone-portrait-primary-lowercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C971C220DCC8D006668C2 /* small-phone-portrait-primary-lowercase.plist */; };
+		B30C9721220DF4E7006668C2 /* small-phone-portrait-primary-uppercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C9720220DF4E7006668C2 /* small-phone-portrait-primary-uppercase.plist */; };
+		B30C9723220DF5D8006668C2 /* small-phone-portrait-secondary-numbers.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C9722220DF5D8006668C2 /* small-phone-portrait-secondary-numbers.plist */; };
+		B30C9725220DFDBD006668C2 /* small-phone-portrait-secondary-symbols.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C9724220DFDBD006668C2 /* small-phone-portrait-secondary-symbols.plist */; };
+		B30C9727220DFE70006668C2 /* small-phone-landscape-primary-lowercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C9726220DFE70006668C2 /* small-phone-landscape-primary-lowercase.plist */; };
+		B30C972B220DFECE006668C2 /* small-phone-landscape-meta.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C972A220DFECE006668C2 /* small-phone-landscape-meta.plist */; };
+		B30C972D220E0A3E006668C2 /* small-phone-landscape-primary-uppercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C972C220E0A3E006668C2 /* small-phone-landscape-primary-uppercase.plist */; };
+		B30C972F220E0D04006668C2 /* small-phone-landscape-secondary-numbers.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C972E220E0D04006668C2 /* small-phone-landscape-secondary-numbers.plist */; };
+		B30C9731220E19FD006668C2 /* small-phone-landscape-secondary-symbols.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C9730220E19FD006668C2 /* small-phone-landscape-secondary-symbols.plist */; };
+		B30C9733220E1A9C006668C2 /* plus-phone-portrait-meta.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C9732220E1A9C006668C2 /* plus-phone-portrait-meta.plist */; };
+		B30C9735220E1AEE006668C2 /* plus-phone-portrait-primary-lowercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C9734220E1AEE006668C2 /* plus-phone-portrait-primary-lowercase.plist */; };
+		B30C9737220E3204006668C2 /* plus-phone-portrait-primary-uppercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C9736220E3204006668C2 /* plus-phone-portrait-primary-uppercase.plist */; };
+		B30C973B220E337B006668C2 /* plus-phone-portrait-secondary-numbers.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C973A220E337B006668C2 /* plus-phone-portrait-secondary-numbers.plist */; };
+		B30C973D220E3A60006668C2 /* plus-phone-portrait-secondary-symbols.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C973C220E3A60006668C2 /* plus-phone-portrait-secondary-symbols.plist */; };
+		B30C973F220E3B3D006668C2 /* plus-phone-landscape-meta.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C973E220E3B3D006668C2 /* plus-phone-landscape-meta.plist */; };
+		B30C9741220E3B7D006668C2 /* plus-phone-landscape-primary-lowercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C9740220E3B7D006668C2 /* plus-phone-landscape-primary-lowercase.plist */; };
+		B30C9743220E4454006668C2 /* plus-phone-landscape-primary-uppercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C9742220E4454006668C2 /* plus-phone-landscape-primary-uppercase.plist */; };
+		B30C9745220E453E006668C2 /* plus-phone-landscape-secondary-numbers.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C9744220E453E006668C2 /* plus-phone-landscape-secondary-numbers.plist */; };
+		B30C9747220E4C37006668C2 /* plus-phone-landscape-secondary-symbols.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C9746220E4C36006668C2 /* plus-phone-landscape-secondary-symbols.plist */; };
+		B30C9749220E4D16006668C2 /* X-phone-portrait-meta.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C9748220E4D16006668C2 /* X-phone-portrait-meta.plist */; };
+		B30C974B220E4D9D006668C2 /* X-phone-portrait-primary-lowercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C974A220E4D9D006668C2 /* X-phone-portrait-primary-lowercase.plist */; };
+		B30C974D220E8655006668C2 /* X-phone-portrait-primary-uppercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C974C220E8655006668C2 /* X-phone-portrait-primary-uppercase.plist */; };
+		B30C974F220E87D2006668C2 /* X-phone-portrait-secondary-numbers.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C974E220E87D2006668C2 /* X-phone-portrait-secondary-numbers.plist */; };
+		B30C975122108A44006668C2 /* X-phone-portrait-secondary-symbols.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C975022108A44006668C2 /* X-phone-portrait-secondary-symbols.plist */; };
+		B30C975322108ACD006668C2 /* X-phone-landscape-meta.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C975222108ACD006668C2 /* X-phone-landscape-meta.plist */; };
+		B30C975522108B04006668C2 /* X-phone-landscape-primary-lowercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C975422108B04006668C2 /* X-phone-landscape-primary-lowercase.plist */; };
+		B30C97572210943A006668C2 /* X-phone-landscape-primary-uppercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C97562210943A006668C2 /* X-phone-landscape-primary-uppercase.plist */; };
+		B30C9759221095BE006668C2 /* X-phone-landscape-secondary-numbers.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C9758221095BE006668C2 /* X-phone-landscape-secondary-numbers.plist */; };
+		B30C975B2210A3E2006668C2 /* standard-tablet-portrait-meta.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C975A2210A3E2006668C2 /* standard-tablet-portrait-meta.plist */; };
+		B30C975D2210A44B006668C2 /* standard-tablet-portrait-primary-lowercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C975C2210A44B006668C2 /* standard-tablet-portrait-primary-lowercase.plist */; };
+		B30C975F2210B038006668C2 /* standard-tablet-portrait-primary-uppercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C975E2210B038006668C2 /* standard-tablet-portrait-primary-uppercase.plist */; };
+		B30C97612210B116006668C2 /* standard-tablet-portrait-secondary-numbers.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C97602210B116006668C2 /* standard-tablet-portrait-secondary-numbers.plist */; };
+		B30C97632210BC74006668C2 /* standard-tablet-portrait-secondary-symbols.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C97622210BC74006668C2 /* standard-tablet-portrait-secondary-symbols.plist */; };
+		B30C97652210BF6D006668C2 /* standard-tablet-landscape-meta.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C97642210BF6D006668C2 /* standard-tablet-landscape-meta.plist */; };
+		B30C97672210BFD1006668C2 /* standard-tablet-landscape-primary-lowercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C97662210BFD1006668C2 /* standard-tablet-landscape-primary-lowercase.plist */; };
+		B30C97692210C6AF006668C2 /* standard-tablet-landscape-primary-uppercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C97682210C6AF006668C2 /* standard-tablet-landscape-primary-uppercase.plist */; };
+		B30C976B2210C708006668C2 /* standard-tablet-landscape-secondary-numbers.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C976A2210C708006668C2 /* standard-tablet-landscape-secondary-numbers.plist */; };
+		B30C976D2210D2D3006668C2 /* standard-tablet-landscape-secondary-symbols.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C976C2210D2D3006668C2 /* standard-tablet-landscape-secondary-symbols.plist */; };
+		B30C976F2210D389006668C2 /* medium-tablet-portrait-meta.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C976E2210D389006668C2 /* medium-tablet-portrait-meta.plist */; };
+		B30C97712210D49A006668C2 /* medium-tablet-portrait-primary-lowercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C97702210D49A006668C2 /* medium-tablet-portrait-primary-lowercase.plist */; };
+		B30C97732210DB13006668C2 /* medium-tablet-portrait-primary-uppercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C97722210DB13006668C2 /* medium-tablet-portrait-primary-uppercase.plist */; };
+		B30C97752210DB98006668C2 /* medium-tablet-portrait-secondary-numbers.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C97742210DB98006668C2 /* medium-tablet-portrait-secondary-numbers.plist */; };
+		B30C97772210DC53006668C2 /* medium-tablet-portrait-secondary-symbols.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C97762210DC53006668C2 /* medium-tablet-portrait-secondary-symbols.plist */; };
+		B30C97792210DD5C006668C2 /* medium-tablet-landscape-meta.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C97782210DD5C006668C2 /* medium-tablet-landscape-meta.plist */; };
+		B30C977B2210DDDA006668C2 /* medium-tablet-landscape-primary-lowercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C977A2210DDDA006668C2 /* medium-tablet-landscape-primary-lowercase.plist */; };
+		B30C977D2210E659006668C2 /* medium-tablet-landscape-primary-uppercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C977C2210E659006668C2 /* medium-tablet-landscape-primary-uppercase.plist */; };
+		B30C977F2210E6B6006668C2 /* medium-tablet-landscape-secondary-numbers.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C977E2210E6B6006668C2 /* medium-tablet-landscape-secondary-numbers.plist */; };
+		B30C97812210E76A006668C2 /* medium-tablet-landscape-secondary-symbols.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C97802210E76A006668C2 /* medium-tablet-landscape-secondary-symbols.plist */; };
+		B30C97832210E83F006668C2 /* large-tablet-portrait-meta.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C97822210E83F006668C2 /* large-tablet-portrait-meta.plist */; };
+		B30C97852210E8A5006668C2 /* large-tablet-landscape-primary-lowercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C97842210E8A5006668C2 /* large-tablet-landscape-primary-lowercase.plist */; };
+		B30C97872210EBAB006668C2 /* large-tablet-portrait-primary-lowercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C97862210EBAB006668C2 /* large-tablet-portrait-primary-lowercase.plist */; };
+		B30C97892210F057006668C2 /* large-tablet-portrait-primary-uppercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C97882210F057006668C2 /* large-tablet-portrait-primary-uppercase.plist */; };
+		B30C978B2210F0CC006668C2 /* large-tablet-portrait-secondary-numbers.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C978A2210F0CC006668C2 /* large-tablet-portrait-secondary-numbers.plist */; };
+		B30C978D2210F175006668C2 /* large-tablet-portrait-secondary-symbols.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C978C2210F175006668C2 /* large-tablet-portrait-secondary-symbols.plist */; };
+		B30C978F2210F2F7006668C2 /* large-tablet-landscape-primary-lowercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C978E2210F2F7006668C2 /* large-tablet-landscape-primary-lowercase.plist */; };
+		B30C97912210F4D1006668C2 /* large-tablet-landscape-meta.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C97902210F4D1006668C2 /* large-tablet-landscape-meta.plist */; };
+		B30C979322110A8A006668C2 /* large-tablet-landscape-primary-uppercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C979222110A8A006668C2 /* large-tablet-landscape-primary-uppercase.plist */; };
+		B30C979522110AE2006668C2 /* large-tablet-landscape-secondary-numbers.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C979422110AE2006668C2 /* large-tablet-landscape-secondary-numbers.plist */; };
+		B30C979722110B7C006668C2 /* large-tablet-landscape-secondary-symbols.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C979622110B7B006668C2 /* large-tablet-landscape-secondary-symbols.plist */; };
+		B30C979B22124FC8006668C2 /* X-phone-landscape-secondary-symbols.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C979A22124FC7006668C2 /* X-phone-landscape-secondary-symbols.plist */; };
+		B30C979D2212523B006668C2 /* XR-phone-portrait-meta.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C979C2212523B006668C2 /* XR-phone-portrait-meta.plist */; };
+		B30C979F22125248006668C2 /* XR-phone-portrait-primary-lowercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C979E22125248006668C2 /* XR-phone-portrait-primary-lowercase.plist */; };
+		B30C97A122127D1F006668C2 /* XR-phone-portrait-primary-uppercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C97A022127D1F006668C2 /* XR-phone-portrait-primary-uppercase.plist */; };
+		B30C97A322127DE9006668C2 /* XR-phone-portrait-secondary-numbers.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C97A222127DE9006668C2 /* XR-phone-portrait-secondary-numbers.plist */; };
+		B30C97A522128387006668C2 /* XR-phone-portrait-secondary-symbols.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C97A422128387006668C2 /* XR-phone-portrait-secondary-symbols.plist */; };
+		B30C97A7221284FA006668C2 /* XR-phone-landscape-meta.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C97A6221284FA006668C2 /* XR-phone-landscape-meta.plist */; };
+		B30C97A92212851B006668C2 /* XR-phone-landscape-primary-lowercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C97A82212851B006668C2 /* XR-phone-landscape-primary-lowercase.plist */; };
+		B30C97AB221285F7006668C2 /* XR-phone-landscape-primary-uppercase.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C97AA221285F7006668C2 /* XR-phone-landscape-primary-uppercase.plist */; };
+		B30C97AD22128618006668C2 /* XR-phone-landscape-secondary-numbers.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C97AC22128618006668C2 /* XR-phone-landscape-secondary-numbers.plist */; };
+		B30C97AF22128622006668C2 /* XR-phone-landscape-secondary-symbols.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C97AE22128622006668C2 /* XR-phone-landscape-secondary-symbols.plist */; };
+		B33D8EEA2208A6E000EA4B4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D8EE92208A6E000EA4B4E /* AppDelegate.swift */; };
+		B33D8EEC2208A6E000EA4B4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D8EEB2208A6E000EA4B4E /* ViewController.swift */; };
+		B33D8EEF2208A6E000EA4B4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33D8EED2208A6E000EA4B4E /* Main.storyboard */; };
+		B33D8EF12208A6E200EA4B4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B33D8EF02208A6E200EA4B4E /* Assets.xcassets */; };
+		B33D8EF42208A6E200EA4B4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33D8EF22208A6E200EA4B4E /* LaunchScreen.storyboard */; };
+		B33D8EFF2208A6E200EA4B4E /* keyboardtestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D8EFE2208A6E200EA4B4E /* keyboardtestTests.swift */; };
+		B33D8F0A2208A6E200EA4B4E /* keyboardtestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D8F092208A6E200EA4B4E /* keyboardtestUITests.swift */; };
+		B33D8F1E2208A70600EA4B4E /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D8F1D2208A70600EA4B4E /* KeyboardViewController.swift */; };
+		B33D8F222208A70600EA4B4E /* keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B33D8F1B2208A70600EA4B4E /* keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B33D8F2A2208F19600EA4B4E /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D8F292208F19600EA4B4E /* Key.swift */; };
+		B33D8F49220B7B8100EA4B4E /* Button Images in Resources */ = {isa = PBXBuildFile; fileRef = B33D8F48220B7B8100EA4B4E /* Button Images */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B33D8EFB2208A6E200EA4B4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B33D8EDE2208A6E000EA4B4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B33D8EE52208A6E000EA4B4E;
+			remoteInfo = keyboardtest;
+		};
+		B33D8F062208A6E200EA4B4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B33D8EDE2208A6E000EA4B4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B33D8EE52208A6E000EA4B4E;
+			remoteInfo = keyboardtest;
+		};
+		B33D8F202208A70600EA4B4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B33D8EDE2208A6E000EA4B4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B33D8F1A2208A70600EA4B4E;
+			remoteInfo = keyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B33D8F262208A70600EA4B4E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B33D8F222208A70600EA4B4E /* keyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B30C96FE220CB853006668C2 /* default-keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "default-keys.plist"; sourceTree = "<group>"; };
+		B30C9700220CB860006668C2 /* standard-phone-portrait-secondary-symbols.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "standard-phone-portrait-secondary-symbols.plist"; sourceTree = "<group>"; };
+		B30C9701220CB860006668C2 /* standard-phone-portrait-meta.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "standard-phone-portrait-meta.plist"; sourceTree = "<group>"; };
+		B30C9702220CB860006668C2 /* standard-phone-portrait-primary-lowercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "standard-phone-portrait-primary-lowercase.plist"; sourceTree = "<group>"; };
+		B30C9704220CB860006668C2 /* standard-phone-portrait-secondary-numbers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "standard-phone-portrait-secondary-numbers.plist"; sourceTree = "<group>"; };
+		B30C9706220CB860006668C2 /* standard-phone-portrait-primary-uppercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "standard-phone-portrait-primary-uppercase.plist"; sourceTree = "<group>"; };
+		B30C970E220CB8F8006668C2 /* standard-phone-landscape-primary-lowercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "standard-phone-landscape-primary-lowercase.plist"; sourceTree = "<group>"; };
+		B30C9710220CBA33006668C2 /* standard-phone-landscape-meta.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "standard-phone-landscape-meta.plist"; sourceTree = "<group>"; };
+		B30C9714220CE116006668C2 /* standard-phone-landscape-secondary-numbers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "standard-phone-landscape-secondary-numbers.plist"; sourceTree = "<group>"; };
+		B30C9716220CEFC8006668C2 /* standard-phone-landscape-primary-uppercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "standard-phone-landscape-primary-uppercase.plist"; sourceTree = "<group>"; };
+		B30C9718220CF89D006668C2 /* standard-phone-landscape-secondary-symbols.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "standard-phone-landscape-secondary-symbols.plist"; sourceTree = "<group>"; };
+		B30C971A220DCC5C006668C2 /* small-phone-portrait-meta.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "small-phone-portrait-meta.plist"; sourceTree = "<group>"; };
+		B30C971C220DCC8D006668C2 /* small-phone-portrait-primary-lowercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "small-phone-portrait-primary-lowercase.plist"; sourceTree = "<group>"; };
+		B30C9720220DF4E7006668C2 /* small-phone-portrait-primary-uppercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "small-phone-portrait-primary-uppercase.plist"; sourceTree = "<group>"; };
+		B30C9722220DF5D8006668C2 /* small-phone-portrait-secondary-numbers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "small-phone-portrait-secondary-numbers.plist"; sourceTree = "<group>"; };
+		B30C9724220DFDBD006668C2 /* small-phone-portrait-secondary-symbols.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "small-phone-portrait-secondary-symbols.plist"; sourceTree = "<group>"; };
+		B30C9726220DFE70006668C2 /* small-phone-landscape-primary-lowercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "small-phone-landscape-primary-lowercase.plist"; sourceTree = "<group>"; };
+		B30C972A220DFECE006668C2 /* small-phone-landscape-meta.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "small-phone-landscape-meta.plist"; sourceTree = "<group>"; };
+		B30C972C220E0A3E006668C2 /* small-phone-landscape-primary-uppercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "small-phone-landscape-primary-uppercase.plist"; sourceTree = "<group>"; };
+		B30C972E220E0D04006668C2 /* small-phone-landscape-secondary-numbers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "small-phone-landscape-secondary-numbers.plist"; sourceTree = "<group>"; };
+		B30C9730220E19FD006668C2 /* small-phone-landscape-secondary-symbols.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "small-phone-landscape-secondary-symbols.plist"; sourceTree = "<group>"; };
+		B30C9732220E1A9C006668C2 /* plus-phone-portrait-meta.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "plus-phone-portrait-meta.plist"; sourceTree = "<group>"; };
+		B30C9734220E1AEE006668C2 /* plus-phone-portrait-primary-lowercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "plus-phone-portrait-primary-lowercase.plist"; sourceTree = "<group>"; };
+		B30C9736220E3204006668C2 /* plus-phone-portrait-primary-uppercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "plus-phone-portrait-primary-uppercase.plist"; sourceTree = "<group>"; };
+		B30C973A220E337B006668C2 /* plus-phone-portrait-secondary-numbers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "plus-phone-portrait-secondary-numbers.plist"; sourceTree = "<group>"; };
+		B30C973C220E3A60006668C2 /* plus-phone-portrait-secondary-symbols.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "plus-phone-portrait-secondary-symbols.plist"; sourceTree = "<group>"; };
+		B30C973E220E3B3D006668C2 /* plus-phone-landscape-meta.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "plus-phone-landscape-meta.plist"; sourceTree = "<group>"; };
+		B30C9740220E3B7D006668C2 /* plus-phone-landscape-primary-lowercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "plus-phone-landscape-primary-lowercase.plist"; sourceTree = "<group>"; };
+		B30C9742220E4454006668C2 /* plus-phone-landscape-primary-uppercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "plus-phone-landscape-primary-uppercase.plist"; sourceTree = "<group>"; };
+		B30C9744220E453E006668C2 /* plus-phone-landscape-secondary-numbers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "plus-phone-landscape-secondary-numbers.plist"; sourceTree = "<group>"; };
+		B30C9746220E4C36006668C2 /* plus-phone-landscape-secondary-symbols.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "plus-phone-landscape-secondary-symbols.plist"; sourceTree = "<group>"; };
+		B30C9748220E4D16006668C2 /* X-phone-portrait-meta.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "X-phone-portrait-meta.plist"; sourceTree = "<group>"; };
+		B30C974A220E4D9D006668C2 /* X-phone-portrait-primary-lowercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "X-phone-portrait-primary-lowercase.plist"; sourceTree = "<group>"; };
+		B30C974C220E8655006668C2 /* X-phone-portrait-primary-uppercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "X-phone-portrait-primary-uppercase.plist"; sourceTree = "<group>"; };
+		B30C974E220E87D2006668C2 /* X-phone-portrait-secondary-numbers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "X-phone-portrait-secondary-numbers.plist"; sourceTree = "<group>"; };
+		B30C975022108A44006668C2 /* X-phone-portrait-secondary-symbols.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "X-phone-portrait-secondary-symbols.plist"; sourceTree = "<group>"; };
+		B30C975222108ACD006668C2 /* X-phone-landscape-meta.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "X-phone-landscape-meta.plist"; sourceTree = "<group>"; };
+		B30C975422108B04006668C2 /* X-phone-landscape-primary-lowercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "X-phone-landscape-primary-lowercase.plist"; sourceTree = "<group>"; };
+		B30C97562210943A006668C2 /* X-phone-landscape-primary-uppercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "X-phone-landscape-primary-uppercase.plist"; sourceTree = "<group>"; };
+		B30C9758221095BE006668C2 /* X-phone-landscape-secondary-numbers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "X-phone-landscape-secondary-numbers.plist"; sourceTree = "<group>"; };
+		B30C975A2210A3E2006668C2 /* standard-tablet-portrait-meta.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "standard-tablet-portrait-meta.plist"; sourceTree = "<group>"; };
+		B30C975C2210A44B006668C2 /* standard-tablet-portrait-primary-lowercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "standard-tablet-portrait-primary-lowercase.plist"; sourceTree = "<group>"; };
+		B30C975E2210B038006668C2 /* standard-tablet-portrait-primary-uppercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "standard-tablet-portrait-primary-uppercase.plist"; sourceTree = "<group>"; };
+		B30C97602210B116006668C2 /* standard-tablet-portrait-secondary-numbers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "standard-tablet-portrait-secondary-numbers.plist"; sourceTree = "<group>"; };
+		B30C97622210BC74006668C2 /* standard-tablet-portrait-secondary-symbols.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "standard-tablet-portrait-secondary-symbols.plist"; sourceTree = "<group>"; };
+		B30C97642210BF6D006668C2 /* standard-tablet-landscape-meta.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "standard-tablet-landscape-meta.plist"; sourceTree = "<group>"; };
+		B30C97662210BFD1006668C2 /* standard-tablet-landscape-primary-lowercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "standard-tablet-landscape-primary-lowercase.plist"; sourceTree = "<group>"; };
+		B30C97682210C6AF006668C2 /* standard-tablet-landscape-primary-uppercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "standard-tablet-landscape-primary-uppercase.plist"; sourceTree = "<group>"; };
+		B30C976A2210C708006668C2 /* standard-tablet-landscape-secondary-numbers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "standard-tablet-landscape-secondary-numbers.plist"; sourceTree = "<group>"; };
+		B30C976C2210D2D3006668C2 /* standard-tablet-landscape-secondary-symbols.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "standard-tablet-landscape-secondary-symbols.plist"; sourceTree = "<group>"; };
+		B30C976E2210D389006668C2 /* medium-tablet-portrait-meta.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "medium-tablet-portrait-meta.plist"; sourceTree = "<group>"; };
+		B30C97702210D49A006668C2 /* medium-tablet-portrait-primary-lowercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "medium-tablet-portrait-primary-lowercase.plist"; sourceTree = "<group>"; };
+		B30C97722210DB13006668C2 /* medium-tablet-portrait-primary-uppercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "medium-tablet-portrait-primary-uppercase.plist"; sourceTree = "<group>"; };
+		B30C97742210DB98006668C2 /* medium-tablet-portrait-secondary-numbers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "medium-tablet-portrait-secondary-numbers.plist"; sourceTree = "<group>"; };
+		B30C97762210DC53006668C2 /* medium-tablet-portrait-secondary-symbols.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "medium-tablet-portrait-secondary-symbols.plist"; sourceTree = "<group>"; };
+		B30C97782210DD5C006668C2 /* medium-tablet-landscape-meta.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "medium-tablet-landscape-meta.plist"; sourceTree = "<group>"; };
+		B30C977A2210DDDA006668C2 /* medium-tablet-landscape-primary-lowercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "medium-tablet-landscape-primary-lowercase.plist"; sourceTree = "<group>"; };
+		B30C977C2210E659006668C2 /* medium-tablet-landscape-primary-uppercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "medium-tablet-landscape-primary-uppercase.plist"; sourceTree = "<group>"; };
+		B30C977E2210E6B6006668C2 /* medium-tablet-landscape-secondary-numbers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "medium-tablet-landscape-secondary-numbers.plist"; sourceTree = "<group>"; };
+		B30C97802210E76A006668C2 /* medium-tablet-landscape-secondary-symbols.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "medium-tablet-landscape-secondary-symbols.plist"; sourceTree = "<group>"; };
+		B30C97822210E83F006668C2 /* large-tablet-portrait-meta.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "large-tablet-portrait-meta.plist"; sourceTree = "<group>"; };
+		B30C97842210E8A5006668C2 /* large-tablet-landscape-primary-lowercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "large-tablet-landscape-primary-lowercase.plist"; sourceTree = "<group>"; };
+		B30C97862210EBAB006668C2 /* large-tablet-portrait-primary-lowercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "large-tablet-portrait-primary-lowercase.plist"; sourceTree = "<group>"; };
+		B30C97882210F057006668C2 /* large-tablet-portrait-primary-uppercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "large-tablet-portrait-primary-uppercase.plist"; sourceTree = "<group>"; };
+		B30C978A2210F0CC006668C2 /* large-tablet-portrait-secondary-numbers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "large-tablet-portrait-secondary-numbers.plist"; sourceTree = "<group>"; };
+		B30C978C2210F175006668C2 /* large-tablet-portrait-secondary-symbols.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "large-tablet-portrait-secondary-symbols.plist"; sourceTree = "<group>"; };
+		B30C978E2210F2F7006668C2 /* large-tablet-landscape-primary-lowercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "large-tablet-landscape-primary-lowercase.plist"; sourceTree = "<group>"; };
+		B30C97902210F4D1006668C2 /* large-tablet-landscape-meta.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "large-tablet-landscape-meta.plist"; sourceTree = "<group>"; };
+		B30C979222110A8A006668C2 /* large-tablet-landscape-primary-uppercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "large-tablet-landscape-primary-uppercase.plist"; sourceTree = "<group>"; };
+		B30C979422110AE2006668C2 /* large-tablet-landscape-secondary-numbers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "large-tablet-landscape-secondary-numbers.plist"; sourceTree = "<group>"; };
+		B30C979622110B7B006668C2 /* large-tablet-landscape-secondary-symbols.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "large-tablet-landscape-secondary-symbols.plist"; sourceTree = "<group>"; };
+		B30C979A22124FC7006668C2 /* X-phone-landscape-secondary-symbols.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "X-phone-landscape-secondary-symbols.plist"; sourceTree = "<group>"; };
+		B30C979C2212523B006668C2 /* XR-phone-portrait-meta.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "XR-phone-portrait-meta.plist"; sourceTree = "<group>"; };
+		B30C979E22125248006668C2 /* XR-phone-portrait-primary-lowercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "XR-phone-portrait-primary-lowercase.plist"; sourceTree = "<group>"; };
+		B30C97A022127D1F006668C2 /* XR-phone-portrait-primary-uppercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "XR-phone-portrait-primary-uppercase.plist"; sourceTree = "<group>"; };
+		B30C97A222127DE9006668C2 /* XR-phone-portrait-secondary-numbers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "XR-phone-portrait-secondary-numbers.plist"; sourceTree = "<group>"; };
+		B30C97A422128387006668C2 /* XR-phone-portrait-secondary-symbols.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "XR-phone-portrait-secondary-symbols.plist"; sourceTree = "<group>"; };
+		B30C97A6221284FA006668C2 /* XR-phone-landscape-meta.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "XR-phone-landscape-meta.plist"; sourceTree = "<group>"; };
+		B30C97A82212851B006668C2 /* XR-phone-landscape-primary-lowercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "XR-phone-landscape-primary-lowercase.plist"; sourceTree = "<group>"; };
+		B30C97AA221285F7006668C2 /* XR-phone-landscape-primary-uppercase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "XR-phone-landscape-primary-uppercase.plist"; sourceTree = "<group>"; };
+		B30C97AC22128618006668C2 /* XR-phone-landscape-secondary-numbers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "XR-phone-landscape-secondary-numbers.plist"; sourceTree = "<group>"; };
+		B30C97AE22128622006668C2 /* XR-phone-landscape-secondary-symbols.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "XR-phone-landscape-secondary-symbols.plist"; sourceTree = "<group>"; };
+		B33D8EE62208A6E000EA4B4E /* Бурятская клавиатура.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Бурятская клавиатура.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B33D8EE92208A6E000EA4B4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B33D8EEB2208A6E000EA4B4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B33D8EEE2208A6E000EA4B4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B33D8EF02208A6E200EA4B4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B33D8EF32208A6E200EA4B4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B33D8EF52208A6E200EA4B4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B33D8EFA2208A6E200EA4B4E /* Бурятская клавиатураTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Бурятская клавиатураTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B33D8EFE2208A6E200EA4B4E /* keyboardtestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyboardtestTests.swift; sourceTree = "<group>"; };
+		B33D8F002208A6E200EA4B4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B33D8F052208A6E200EA4B4E /* Бурятская клавиатураUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Бурятская клавиатураUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B33D8F092208A6E200EA4B4E /* keyboardtestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyboardtestUITests.swift; sourceTree = "<group>"; };
+		B33D8F0B2208A6E200EA4B4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B33D8F1B2208A70600EA4B4E /* keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = keyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B33D8F1D2208A70600EA4B4E /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		B33D8F1F2208A70600EA4B4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B33D8F292208F19600EA4B4E /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
+		B33D8F48220B7B8100EA4B4E /* Button Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Button Images"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B33D8EE32208A6E000EA4B4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B33D8EF72208A6E200EA4B4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B33D8F022208A6E200EA4B4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B33D8F182208A70600EA4B4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B30C96FB220CB824006668C2 /* layout-keys */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "layout-keys";
+			sourceTree = "<group>";
+		};
+		B33D8EDD2208A6E000EA4B4E = {
+			isa = PBXGroup;
+			children = (
+				B33D8EE82208A6E000EA4B4E /* keyboardtest */,
+				B33D8EFD2208A6E200EA4B4E /* keyboardtestTests */,
+				B33D8F082208A6E200EA4B4E /* keyboardtestUITests */,
+				B33D8F1C2208A70600EA4B4E /* keyboard */,
+				B33D8EE72208A6E000EA4B4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B33D8EE72208A6E000EA4B4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B33D8EE62208A6E000EA4B4E /* Бурятская клавиатура.app */,
+				B33D8EFA2208A6E200EA4B4E /* Бурятская клавиатураTests.xctest */,
+				B33D8F052208A6E200EA4B4E /* Бурятская клавиатураUITests.xctest */,
+				B33D8F1B2208A70600EA4B4E /* keyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B33D8EE82208A6E000EA4B4E /* keyboardtest */ = {
+			isa = PBXGroup;
+			children = (
+				B33D8EE92208A6E000EA4B4E /* AppDelegate.swift */,
+				B33D8EEB2208A6E000EA4B4E /* ViewController.swift */,
+				B33D8EED2208A6E000EA4B4E /* Main.storyboard */,
+				B33D8EF02208A6E200EA4B4E /* Assets.xcassets */,
+				B33D8EF22208A6E200EA4B4E /* LaunchScreen.storyboard */,
+				B33D8EF52208A6E200EA4B4E /* Info.plist */,
+			);
+			path = keyboardtest;
+			sourceTree = "<group>";
+		};
+		B33D8EFD2208A6E200EA4B4E /* keyboardtestTests */ = {
+			isa = PBXGroup;
+			children = (
+				B33D8EFE2208A6E200EA4B4E /* keyboardtestTests.swift */,
+				B33D8F002208A6E200EA4B4E /* Info.plist */,
+			);
+			path = keyboardtestTests;
+			sourceTree = "<group>";
+		};
+		B33D8F082208A6E200EA4B4E /* keyboardtestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B33D8F092208A6E200EA4B4E /* keyboardtestUITests.swift */,
+				B33D8F0B2208A6E200EA4B4E /* Info.plist */,
+			);
+			path = keyboardtestUITests;
+			sourceTree = "<group>";
+		};
+		B33D8F1C2208A70600EA4B4E /* keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B30C96FE220CB853006668C2 /* default-keys.plist */,
+				B30C9701220CB860006668C2 /* standard-phone-portrait-meta.plist */,
+				B30C975A2210A3E2006668C2 /* standard-tablet-portrait-meta.plist */,
+				B30C976E2210D389006668C2 /* medium-tablet-portrait-meta.plist */,
+				B30C97782210DD5C006668C2 /* medium-tablet-landscape-meta.plist */,
+				B30C97642210BF6D006668C2 /* standard-tablet-landscape-meta.plist */,
+				B30C97822210E83F006668C2 /* large-tablet-portrait-meta.plist */,
+				B30C97902210F4D1006668C2 /* large-tablet-landscape-meta.plist */,
+				B30C971A220DCC5C006668C2 /* small-phone-portrait-meta.plist */,
+				B30C9732220E1A9C006668C2 /* plus-phone-portrait-meta.plist */,
+				B30C9748220E4D16006668C2 /* X-phone-portrait-meta.plist */,
+				B30C979C2212523B006668C2 /* XR-phone-portrait-meta.plist */,
+				B30C975222108ACD006668C2 /* X-phone-landscape-meta.plist */,
+				B30C97A6221284FA006668C2 /* XR-phone-landscape-meta.plist */,
+				B30C973E220E3B3D006668C2 /* plus-phone-landscape-meta.plist */,
+				B30C972A220DFECE006668C2 /* small-phone-landscape-meta.plist */,
+				B30C9710220CBA33006668C2 /* standard-phone-landscape-meta.plist */,
+				B30C9702220CB860006668C2 /* standard-phone-portrait-primary-lowercase.plist */,
+				B30C975C2210A44B006668C2 /* standard-tablet-portrait-primary-lowercase.plist */,
+				B30C97702210D49A006668C2 /* medium-tablet-portrait-primary-lowercase.plist */,
+				B30C97862210EBAB006668C2 /* large-tablet-portrait-primary-lowercase.plist */,
+				B30C97882210F057006668C2 /* large-tablet-portrait-primary-uppercase.plist */,
+				B30C978A2210F0CC006668C2 /* large-tablet-portrait-secondary-numbers.plist */,
+				B30C978C2210F175006668C2 /* large-tablet-portrait-secondary-symbols.plist */,
+				B30C977A2210DDDA006668C2 /* medium-tablet-landscape-primary-lowercase.plist */,
+				B30C978E2210F2F7006668C2 /* large-tablet-landscape-primary-lowercase.plist */,
+				B30C979422110AE2006668C2 /* large-tablet-landscape-secondary-numbers.plist */,
+				B30C979622110B7B006668C2 /* large-tablet-landscape-secondary-symbols.plist */,
+				B30C979222110A8A006668C2 /* large-tablet-landscape-primary-uppercase.plist */,
+				B30C977E2210E6B6006668C2 /* medium-tablet-landscape-secondary-numbers.plist */,
+				B30C97802210E76A006668C2 /* medium-tablet-landscape-secondary-symbols.plist */,
+				B30C977C2210E659006668C2 /* medium-tablet-landscape-primary-uppercase.plist */,
+				B30C97742210DB98006668C2 /* medium-tablet-portrait-secondary-numbers.plist */,
+				B30C97762210DC53006668C2 /* medium-tablet-portrait-secondary-symbols.plist */,
+				B30C97722210DB13006668C2 /* medium-tablet-portrait-primary-uppercase.plist */,
+				B30C97662210BFD1006668C2 /* standard-tablet-landscape-primary-lowercase.plist */,
+				B30C97842210E8A5006668C2 /* large-tablet-landscape-primary-lowercase.plist */,
+				B30C976A2210C708006668C2 /* standard-tablet-landscape-secondary-numbers.plist */,
+				B30C976C2210D2D3006668C2 /* standard-tablet-landscape-secondary-symbols.plist */,
+				B30C97682210C6AF006668C2 /* standard-tablet-landscape-primary-uppercase.plist */,
+				B30C97602210B116006668C2 /* standard-tablet-portrait-secondary-numbers.plist */,
+				B30C97622210BC74006668C2 /* standard-tablet-portrait-secondary-symbols.plist */,
+				B30C975E2210B038006668C2 /* standard-tablet-portrait-primary-uppercase.plist */,
+				B30C9734220E1AEE006668C2 /* plus-phone-portrait-primary-lowercase.plist */,
+				B30C974A220E4D9D006668C2 /* X-phone-portrait-primary-lowercase.plist */,
+				B30C979E22125248006668C2 /* XR-phone-portrait-primary-lowercase.plist */,
+				B30C97A022127D1F006668C2 /* XR-phone-portrait-primary-uppercase.plist */,
+				B30C975422108B04006668C2 /* X-phone-landscape-primary-lowercase.plist */,
+				B30C97A82212851B006668C2 /* XR-phone-landscape-primary-lowercase.plist */,
+				B30C97562210943A006668C2 /* X-phone-landscape-primary-uppercase.plist */,
+				B30C97AA221285F7006668C2 /* XR-phone-landscape-primary-uppercase.plist */,
+				B30C974C220E8655006668C2 /* X-phone-portrait-primary-uppercase.plist */,
+				B30C9740220E3B7D006668C2 /* plus-phone-landscape-primary-lowercase.plist */,
+				B30C9742220E4454006668C2 /* plus-phone-landscape-primary-uppercase.plist */,
+				B30C9736220E3204006668C2 /* plus-phone-portrait-primary-uppercase.plist */,
+				B30C971C220DCC8D006668C2 /* small-phone-portrait-primary-lowercase.plist */,
+				B30C9726220DFE70006668C2 /* small-phone-landscape-primary-lowercase.plist */,
+				B30C972C220E0A3E006668C2 /* small-phone-landscape-primary-uppercase.plist */,
+				B30C9720220DF4E7006668C2 /* small-phone-portrait-primary-uppercase.plist */,
+				B30C970E220CB8F8006668C2 /* standard-phone-landscape-primary-lowercase.plist */,
+				B30C9716220CEFC8006668C2 /* standard-phone-landscape-primary-uppercase.plist */,
+				B30C9714220CE116006668C2 /* standard-phone-landscape-secondary-numbers.plist */,
+				B30C972E220E0D04006668C2 /* small-phone-landscape-secondary-numbers.plist */,
+				B30C9730220E19FD006668C2 /* small-phone-landscape-secondary-symbols.plist */,
+				B30C9718220CF89D006668C2 /* standard-phone-landscape-secondary-symbols.plist */,
+				B30C9706220CB860006668C2 /* standard-phone-portrait-primary-uppercase.plist */,
+				B30C9704220CB860006668C2 /* standard-phone-portrait-secondary-numbers.plist */,
+				B30C973A220E337B006668C2 /* plus-phone-portrait-secondary-numbers.plist */,
+				B30C9744220E453E006668C2 /* plus-phone-landscape-secondary-numbers.plist */,
+				B30C9746220E4C36006668C2 /* plus-phone-landscape-secondary-symbols.plist */,
+				B30C973C220E3A60006668C2 /* plus-phone-portrait-secondary-symbols.plist */,
+				B30C9722220DF5D8006668C2 /* small-phone-portrait-secondary-numbers.plist */,
+				B30C974E220E87D2006668C2 /* X-phone-portrait-secondary-numbers.plist */,
+				B30C97A222127DE9006668C2 /* XR-phone-portrait-secondary-numbers.plist */,
+				B30C97A422128387006668C2 /* XR-phone-portrait-secondary-symbols.plist */,
+				B30C9758221095BE006668C2 /* X-phone-landscape-secondary-numbers.plist */,
+				B30C97AC22128618006668C2 /* XR-phone-landscape-secondary-numbers.plist */,
+				B30C979A22124FC7006668C2 /* X-phone-landscape-secondary-symbols.plist */,
+				B30C97AE22128622006668C2 /* XR-phone-landscape-secondary-symbols.plist */,
+				B30C975022108A44006668C2 /* X-phone-portrait-secondary-symbols.plist */,
+				B30C9724220DFDBD006668C2 /* small-phone-portrait-secondary-symbols.plist */,
+				B30C9700220CB860006668C2 /* standard-phone-portrait-secondary-symbols.plist */,
+				B30C96FB220CB824006668C2 /* layout-keys */,
+				B33D8F48220B7B8100EA4B4E /* Button Images */,
+				B33D8F1D2208A70600EA4B4E /* KeyboardViewController.swift */,
+				B33D8F1F2208A70600EA4B4E /* Info.plist */,
+				B33D8F292208F19600EA4B4E /* Key.swift */,
+			);
+			path = keyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B33D8EE52208A6E000EA4B4E /* Бурятская клавиатура */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B33D8F0E2208A6E200EA4B4E /* Build configuration list for PBXNativeTarget "Бурятская клавиатура" */;
+			buildPhases = (
+				B33D8EE22208A6E000EA4B4E /* Sources */,
+				B33D8EE32208A6E000EA4B4E /* Frameworks */,
+				B33D8EE42208A6E000EA4B4E /* Resources */,
+				B33D8F262208A70600EA4B4E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B33D8F212208A70600EA4B4E /* PBXTargetDependency */,
+			);
+			name = "Бурятская клавиатура";
+			productName = keyboardtest;
+			productReference = B33D8EE62208A6E000EA4B4E /* Бурятская клавиатура.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B33D8EF92208A6E200EA4B4E /* Бурятская клавиатураTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B33D8F112208A6E200EA4B4E /* Build configuration list for PBXNativeTarget "Бурятская клавиатураTests" */;
+			buildPhases = (
+				B33D8EF62208A6E200EA4B4E /* Sources */,
+				B33D8EF72208A6E200EA4B4E /* Frameworks */,
+				B33D8EF82208A6E200EA4B4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B33D8EFC2208A6E200EA4B4E /* PBXTargetDependency */,
+			);
+			name = "Бурятская клавиатураTests";
+			productName = keyboardtestTests;
+			productReference = B33D8EFA2208A6E200EA4B4E /* Бурятская клавиатураTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B33D8F042208A6E200EA4B4E /* Бурятская клавиатураUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B33D8F142208A6E200EA4B4E /* Build configuration list for PBXNativeTarget "Бурятская клавиатураUITests" */;
+			buildPhases = (
+				B33D8F012208A6E200EA4B4E /* Sources */,
+				B33D8F022208A6E200EA4B4E /* Frameworks */,
+				B33D8F032208A6E200EA4B4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B33D8F072208A6E200EA4B4E /* PBXTargetDependency */,
+			);
+			name = "Бурятская клавиатураUITests";
+			productName = keyboardtestUITests;
+			productReference = B33D8F052208A6E200EA4B4E /* Бурятская клавиатураUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B33D8F1A2208A70600EA4B4E /* keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B33D8F232208A70600EA4B4E /* Build configuration list for PBXNativeTarget "keyboard" */;
+			buildPhases = (
+				B33D8F172208A70600EA4B4E /* Sources */,
+				B33D8F182208A70600EA4B4E /* Frameworks */,
+				B33D8F192208A70600EA4B4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = keyboard;
+			productName = keyboard;
+			productReference = B33D8F1B2208A70600EA4B4E /* keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B33D8EDE2208A6E000EA4B4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Lev Bulygin";
+				TargetAttributes = {
+					B33D8EE52208A6E000EA4B4E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					B33D8EF92208A6E200EA4B4E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B33D8EE52208A6E000EA4B4E;
+					};
+					B33D8F042208A6E200EA4B4E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B33D8EE52208A6E000EA4B4E;
+					};
+					B33D8F1A2208A70600EA4B4E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = B33D8EE12208A6E000EA4B4E /* Build configuration list for PBXProject "Бурятская клавиатура" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B33D8EDD2208A6E000EA4B4E;
+			productRefGroup = B33D8EE72208A6E000EA4B4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B33D8EE52208A6E000EA4B4E /* Бурятская клавиатура */,
+				B33D8EF92208A6E200EA4B4E /* Бурятская клавиатураTests */,
+				B33D8F042208A6E200EA4B4E /* Бурятская клавиатураUITests */,
+				B33D8F1A2208A70600EA4B4E /* keyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B33D8EE42208A6E000EA4B4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B33D8EF42208A6E200EA4B4E /* LaunchScreen.storyboard in Resources */,
+				B33D8EF12208A6E200EA4B4E /* Assets.xcassets in Resources */,
+				B33D8EEF2208A6E000EA4B4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B33D8EF82208A6E200EA4B4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B33D8F032208A6E200EA4B4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B33D8F192208A70600EA4B4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30C97A92212851B006668C2 /* XR-phone-landscape-primary-lowercase.plist in Resources */,
+				B30C97872210EBAB006668C2 /* large-tablet-portrait-primary-lowercase.plist in Resources */,
+				B30C97A522128387006668C2 /* XR-phone-portrait-secondary-symbols.plist in Resources */,
+				B30C975F2210B038006668C2 /* standard-tablet-portrait-primary-uppercase.plist in Resources */,
+				B30C97712210D49A006668C2 /* medium-tablet-portrait-primary-lowercase.plist in Resources */,
+				B30C97572210943A006668C2 /* X-phone-landscape-primary-uppercase.plist in Resources */,
+				B30C974B220E4D9D006668C2 /* X-phone-portrait-primary-lowercase.plist in Resources */,
+				B30C975522108B04006668C2 /* X-phone-landscape-primary-lowercase.plist in Resources */,
+				B30C97652210BF6D006668C2 /* standard-tablet-landscape-meta.plist in Resources */,
+				B30C9749220E4D16006668C2 /* X-phone-portrait-meta.plist in Resources */,
+				B30C970B220CB860006668C2 /* standard-phone-portrait-secondary-numbers.plist in Resources */,
+				B30C977B2210DDDA006668C2 /* medium-tablet-landscape-primary-lowercase.plist in Resources */,
+				B30C96FF220CB853006668C2 /* default-keys.plist in Resources */,
+				B30C974D220E8655006668C2 /* X-phone-portrait-primary-uppercase.plist in Resources */,
+				B30C974F220E87D2006668C2 /* X-phone-portrait-secondary-numbers.plist in Resources */,
+				B30C973D220E3A60006668C2 /* plus-phone-portrait-secondary-symbols.plist in Resources */,
+				B30C979F22125248006668C2 /* XR-phone-portrait-primary-lowercase.plist in Resources */,
+				B30C97AD22128618006668C2 /* XR-phone-landscape-secondary-numbers.plist in Resources */,
+				B30C979522110AE2006668C2 /* large-tablet-landscape-secondary-numbers.plist in Resources */,
+				B30C97A122127D1F006668C2 /* XR-phone-portrait-primary-uppercase.plist in Resources */,
+				B30C977F2210E6B6006668C2 /* medium-tablet-landscape-secondary-numbers.plist in Resources */,
+				B30C9737220E3204006668C2 /* plus-phone-portrait-primary-uppercase.plist in Resources */,
+				B30C973F220E3B3D006668C2 /* plus-phone-landscape-meta.plist in Resources */,
+				B30C976D2210D2D3006668C2 /* standard-tablet-landscape-secondary-symbols.plist in Resources */,
+				B30C976B2210C708006668C2 /* standard-tablet-landscape-secondary-numbers.plist in Resources */,
+				B30C975322108ACD006668C2 /* X-phone-landscape-meta.plist in Resources */,
+				B30C97A7221284FA006668C2 /* XR-phone-landscape-meta.plist in Resources */,
+				B30C9721220DF4E7006668C2 /* small-phone-portrait-primary-uppercase.plist in Resources */,
+				B30C9708220CB860006668C2 /* standard-phone-portrait-meta.plist in Resources */,
+				B30C979722110B7C006668C2 /* large-tablet-landscape-secondary-symbols.plist in Resources */,
+				B30C97672210BFD1006668C2 /* standard-tablet-landscape-primary-lowercase.plist in Resources */,
+				B30C971B220DCC5C006668C2 /* small-phone-portrait-meta.plist in Resources */,
+				B30C970D220CB860006668C2 /* standard-phone-portrait-primary-uppercase.plist in Resources */,
+				B30C9723220DF5D8006668C2 /* small-phone-portrait-secondary-numbers.plist in Resources */,
+				B30C979B22124FC8006668C2 /* X-phone-landscape-secondary-symbols.plist in Resources */,
+				B30C9707220CB860006668C2 /* standard-phone-portrait-secondary-symbols.plist in Resources */,
+				B30C9731220E19FD006668C2 /* small-phone-landscape-secondary-symbols.plist in Resources */,
+				B30C9709220CB860006668C2 /* standard-phone-portrait-primary-lowercase.plist in Resources */,
+				B30C971D220DCC8D006668C2 /* small-phone-portrait-primary-lowercase.plist in Resources */,
+				B30C977D2210E659006668C2 /* medium-tablet-landscape-primary-uppercase.plist in Resources */,
+				B30C9745220E453E006668C2 /* plus-phone-landscape-secondary-numbers.plist in Resources */,
+				B30C975D2210A44B006668C2 /* standard-tablet-portrait-primary-lowercase.plist in Resources */,
+				B30C975122108A44006668C2 /* X-phone-portrait-secondary-symbols.plist in Resources */,
+				B30C97832210E83F006668C2 /* large-tablet-portrait-meta.plist in Resources */,
+				B30C978F2210F2F7006668C2 /* large-tablet-landscape-primary-lowercase.plist in Resources */,
+				B30C97732210DB13006668C2 /* medium-tablet-portrait-primary-uppercase.plist in Resources */,
+				B30C97892210F057006668C2 /* large-tablet-portrait-primary-uppercase.plist in Resources */,
+				B30C97612210B116006668C2 /* standard-tablet-portrait-secondary-numbers.plist in Resources */,
+				B30C975B2210A3E2006668C2 /* standard-tablet-portrait-meta.plist in Resources */,
+				B30C9727220DFE70006668C2 /* small-phone-landscape-primary-lowercase.plist in Resources */,
+				B30C97692210C6AF006668C2 /* standard-tablet-landscape-primary-uppercase.plist in Resources */,
+				B30C9733220E1A9C006668C2 /* plus-phone-portrait-meta.plist in Resources */,
+				B30C97632210BC74006668C2 /* standard-tablet-portrait-secondary-symbols.plist in Resources */,
+				B30C979322110A8A006668C2 /* large-tablet-landscape-primary-uppercase.plist in Resources */,
+				B30C97912210F4D1006668C2 /* large-tablet-landscape-meta.plist in Resources */,
+				B30C979D2212523B006668C2 /* XR-phone-portrait-meta.plist in Resources */,
+				B30C97752210DB98006668C2 /* medium-tablet-portrait-secondary-numbers.plist in Resources */,
+				B30C9759221095BE006668C2 /* X-phone-landscape-secondary-numbers.plist in Resources */,
+				B30C97772210DC53006668C2 /* medium-tablet-portrait-secondary-symbols.plist in Resources */,
+				B30C97792210DD5C006668C2 /* medium-tablet-landscape-meta.plist in Resources */,
+				B30C9717220CEFC8006668C2 /* standard-phone-landscape-primary-uppercase.plist in Resources */,
+				B30C9743220E4454006668C2 /* plus-phone-landscape-primary-uppercase.plist in Resources */,
+				B30C97A322127DE9006668C2 /* XR-phone-portrait-secondary-numbers.plist in Resources */,
+				B30C972B220DFECE006668C2 /* small-phone-landscape-meta.plist in Resources */,
+				B30C9747220E4C37006668C2 /* plus-phone-landscape-secondary-symbols.plist in Resources */,
+				B30C972D220E0A3E006668C2 /* small-phone-landscape-primary-uppercase.plist in Resources */,
+				B30C9725220DFDBD006668C2 /* small-phone-portrait-secondary-symbols.plist in Resources */,
+				B30C978B2210F0CC006668C2 /* large-tablet-portrait-secondary-numbers.plist in Resources */,
+				B30C970F220CB8F8006668C2 /* standard-phone-landscape-primary-lowercase.plist in Resources */,
+				B30C97812210E76A006668C2 /* medium-tablet-landscape-secondary-symbols.plist in Resources */,
+				B30C97AF22128622006668C2 /* XR-phone-landscape-secondary-symbols.plist in Resources */,
+				B30C97852210E8A5006668C2 /* large-tablet-landscape-primary-lowercase.plist in Resources */,
+				B30C9715220CE116006668C2 /* standard-phone-landscape-secondary-numbers.plist in Resources */,
+				B30C97AB221285F7006668C2 /* XR-phone-landscape-primary-uppercase.plist in Resources */,
+				B30C973B220E337B006668C2 /* plus-phone-portrait-secondary-numbers.plist in Resources */,
+				B30C976F2210D389006668C2 /* medium-tablet-portrait-meta.plist in Resources */,
+				B30C9719220CF89E006668C2 /* standard-phone-landscape-secondary-symbols.plist in Resources */,
+				B30C9711220CBA33006668C2 /* standard-phone-landscape-meta.plist in Resources */,
+				B30C9735220E1AEE006668C2 /* plus-phone-portrait-primary-lowercase.plist in Resources */,
+				B33D8F49220B7B8100EA4B4E /* Button Images in Resources */,
+				B30C978D2210F175006668C2 /* large-tablet-portrait-secondary-symbols.plist in Resources */,
+				B30C972F220E0D04006668C2 /* small-phone-landscape-secondary-numbers.plist in Resources */,
+				B30C9741220E3B7D006668C2 /* plus-phone-landscape-primary-lowercase.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B33D8EE22208A6E000EA4B4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B33D8EEC2208A6E000EA4B4E /* ViewController.swift in Sources */,
+				B33D8EEA2208A6E000EA4B4E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B33D8EF62208A6E200EA4B4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B33D8EFF2208A6E200EA4B4E /* keyboardtestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B33D8F012208A6E200EA4B4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B33D8F0A2208A6E200EA4B4E /* keyboardtestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B33D8F172208A70600EA4B4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B33D8F1E2208A70600EA4B4E /* KeyboardViewController.swift in Sources */,
+				B33D8F2A2208F19600EA4B4E /* Key.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B33D8EFC2208A6E200EA4B4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B33D8EE52208A6E000EA4B4E /* Бурятская клавиатура */;
+			targetProxy = B33D8EFB2208A6E200EA4B4E /* PBXContainerItemProxy */;
+		};
+		B33D8F072208A6E200EA4B4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B33D8EE52208A6E000EA4B4E /* Бурятская клавиатура */;
+			targetProxy = B33D8F062208A6E200EA4B4E /* PBXContainerItemProxy */;
+		};
+		B33D8F212208A70600EA4B4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B33D8F1A2208A70600EA4B4E /* keyboard */;
+			targetProxy = B33D8F202208A70600EA4B4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B33D8EED2208A6E000EA4B4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B33D8EEE2208A6E000EA4B4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B33D8EF22208A6E200EA4B4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B33D8EF32208A6E200EA4B4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B33D8F0C2208A6E200EA4B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B33D8F0D2208A6E200EA4B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B33D8F0F2208A6E200EA4B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YLY98U66AR;
+				INFOPLIST_FILE = keyboardtest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.levbulygin.buryatkeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B33D8F102208A6E200EA4B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YLY98U66AR;
+				INFOPLIST_FILE = keyboardtest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.levbulygin.buryatkeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B33D8F122208A6E200EA4B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YLY98U66AR;
+				INFOPLIST_FILE = keyboardtestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.levbulygin.keyboardtestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Бурятская клавиатура.app/Бурятская клавиатура";
+			};
+			name = Debug;
+		};
+		B33D8F132208A6E200EA4B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YLY98U66AR;
+				INFOPLIST_FILE = keyboardtestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.levbulygin.keyboardtestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Бурятская клавиатура.app/Бурятская клавиатура";
+			};
+			name = Release;
+		};
+		B33D8F152208A6E200EA4B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YLY98U66AR;
+				INFOPLIST_FILE = keyboardtestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.levbulygin.keyboardtestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = keyboardtest;
+			};
+			name = Debug;
+		};
+		B33D8F162208A6E200EA4B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YLY98U66AR;
+				INFOPLIST_FILE = keyboardtestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.levbulygin.keyboardtestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = keyboardtest;
+			};
+			name = Release;
+		};
+		B33D8F242208A70600EA4B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YLY98U66AR;
+				INFOPLIST_FILE = keyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.levbulygin.buryatkeyboard.keyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B33D8F252208A70600EA4B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YLY98U66AR;
+				INFOPLIST_FILE = keyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.levbulygin.buryatkeyboard.keyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B33D8EE12208A6E000EA4B4E /* Build configuration list for PBXProject "Бурятская клавиатура" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B33D8F0C2208A6E200EA4B4E /* Debug */,
+				B33D8F0D2208A6E200EA4B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B33D8F0E2208A6E200EA4B4E /* Build configuration list for PBXNativeTarget "Бурятская клавиатура" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B33D8F0F2208A6E200EA4B4E /* Debug */,
+				B33D8F102208A6E200EA4B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B33D8F112208A6E200EA4B4E /* Build configuration list for PBXNativeTarget "Бурятская клавиатураTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B33D8F122208A6E200EA4B4E /* Debug */,
+				B33D8F132208A6E200EA4B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B33D8F142208A6E200EA4B4E /* Build configuration list for PBXNativeTarget "Бурятская клавиатураUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B33D8F152208A6E200EA4B4E /* Debug */,
+				B33D8F162208A6E200EA4B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B33D8F232208A70600EA4B4E /* Build configuration list for PBXNativeTarget "keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B33D8F242208A70600EA4B4E /* Debug */,
+				B33D8F252208A70600EA4B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B33D8EDE2208A6E000EA4B4E /* Project object */;
+}

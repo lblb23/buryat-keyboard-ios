@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>primary-height</key>
+	<integer>265</integer>
+	<key>pop-up-height-hang</key>
+	<integer>60</integer>
+	<key>suggestions</key>
+	<dict>
+		<key>x</key>
+		<integer>0</integer>
+		<key>y</key>
+		<real>0</real>
+		<key>width</key>
+		<integer>375</integer>
+		<key>height</key>
+		<integer>52</integer>
+		<key>margin-top</key>
+		<integer>10</integer>
+		<key>margin-side</key>
+		<integer>3</integer>
+	</dict>
+</dict>
+</plist>
